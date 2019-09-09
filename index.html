@@ -16,39 +16,46 @@
 	</div>
 
 	<div class="body-panel basic-container">
+
 		<div class="basic-roll d4">
 			<button class="roll-button roll d4">d4</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
 		<div class="basic-roll d6">
 			<button class="roll-button roll d6">d6</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
 		<div class="basic-roll d8">
 			<button class="roll-button roll d8">d8</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
 		<div class="basic-roll d10">
 			<button class="roll-button roll d10">d10</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
 		<div class="basic-roll d12">
 			<button class="roll-button roll d12">d12</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
 		<div class="basic-roll d20">
 			<button class="roll-button roll d20">d20</button>
-			<div class="result-box"><i class="fas fa-dice-d20"></i>
+			<div class="result-box">
+				<i class="fas fa-dice-d20"></i>
 			</div>
 		</div>
 
@@ -59,17 +66,48 @@
 		<h3>Advanced</h3>
 		<form>
 			<p>
-				<input type="number" id="num-of-rolls" name="num-of-rolls" required minlength="1" maxlength="2" min="1" max="9" step="1" size="2" value="6">
-				<span> ( </span>
-				<input type="number" id="num-of-die" name="num-of-die" required minlength="1" maxlength="2" min="1" max="99" step="1" size="2" value="4">
-				<span> d </span>
-				<input type="number" id="sides-of-die" name="sides-of-die" required minlength="1" maxlength="3" min="1" max="100" step="1" size="3" value="6">
-				<span> reroll: </span>
-				<button>none</button> drop: <button>none</button> <button>X</button> <button>+</button> <button>0</button> ) drop: <button>none</button> <button>X</button>
+				<input type="number" id="num-of-rolls" name="num-of-rolls" required min="1" max="9" value="7">
+				<span>
+					* ( 
+				</span>
+				<input type="number" id="num-of-die" name="num-of-die" required min="1" max="99" value="4">
+				<span>
+					d 
+				</span>
+				<input type="number" id="sides-of-die" name="sides-of-die" required min="1" max="100" value="6">
+				<span>
+					reroll: 
+				</span>
+				<select id="reroll-die" name="reroll-die">
+					<option value="0">none</option>
+					<option value="1">1's</option>
+					<option value="2">2's</option>
+				</select>
+				drop: 
+				<select id="die-drop" name="die-drop">
+					<option value="0">none</option>
+					<option value="1">Lowest</option>
+					<option value="2">Highest</option>
+				</select>
+				<input type="number" id="die-drop-count" name="die-drop-count" required min="0" max="2" value="1"></input>
+				<select id="bonus" name="bonus">
+					<option value="0">-</option>
+					<option value="1">+</option>
+				</select>
+				<input type="number" id="bonus-count" name="bonus-count" required min="0" max="100" value="0">
+				) drop: 
+				<select id="roll-drop" name="roll-drop">
+					<option value="0">none</option>
+					<option value="1">Lowest</option>
+					<option value="2">Highest</option>
+				</select>
+				<input type="number" id="roll-drop-count" name="roll-drop-count" required min="0" max="8" value="1"></input>
+				<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit">Roll</button>
 			</p>
 		</form>
 	</div>
 </div>
 <script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/advanced_roll.js"></script>
 </body>
 </html>

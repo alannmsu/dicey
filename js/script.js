@@ -19,3 +19,4 @@ for (var i = 0 ; i < rollButtons.length; i++) {
    rollButtons[i].addEventListener('mouseup' , roll , false );
    rollButtons[i].addEventListener('mousedown', reset, false);
 };
+
