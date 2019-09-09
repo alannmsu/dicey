@@ -1,0 +1,106 @@
+/*UNIVERSAL STYLILNG*/
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid black;
+}
+
+html {
+	font-size: 20px;
+	font-family: "Courier New";
+	color: black;
+	/*background-image: url("../images/stone-texture.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+	margin: .5% 1%;
+}
+
+h1, h2 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+button {
+	border: 1px solid black;
+	padding: 1px 5px;
+}
+
+/*BODY STYLES*/
+
+
+/*BASIC STYLES*/
+
+.body-panel {
+	margin: 2% 1%;
+}
+.basic-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	min-height: 200px;
+}
+
+.basic-roll {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 2%;
+	flex-grow: 1;
+}
+
+.basic-roll div {
+	min-height: 50px;
+	min-width: 50px;
+	max-width: 100px;
+	flex-grow: 1;
+
+}
+
+.roll-button button {
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.result-box {
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.result-box .fas {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.basic-result {
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+	font-weight: bold;
+}
+
+/*ADVANCED STYLES*/
+
+.advanced-container p span {
+	/*border: 1px solid black;
+	margin: 0 1px;
+	padding: 0 1px;*/
+}
