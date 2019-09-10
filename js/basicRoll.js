@@ -1,7 +1,7 @@
 
 let rollButtons = document.getElementsByClassName('roll-button');
 
-function roll(e) {
+function basicRoll(e) {
 	let max = Number(e.target.innerHTML.slice(1));
 	console.log(`You're rolling a d${max},`);
 	let result = Math.floor(Math.random() * Math.floor(max)+1);
@@ -16,7 +16,7 @@ function reset(e) {
 };
 
 for (var i = 0 ; i < rollButtons.length; i++) {
-   rollButtons[i].addEventListener('mouseup' , roll , false );
+   rollButtons[i].addEventListener('mouseup' , basicRoll , false );
    rollButtons[i].addEventListener('mousedown', reset, false);
 };
 
