@@ -20,9 +20,9 @@ let advancedRoll = () => {
 	let rollDrop = valOf('roll-drop'); //0 for no drop, 1 for dropping lowest values, 2 for dropping highest values
 	let rollDropCount = valOf('roll-drop-count'); //How many results to drop according to the rollDrop variable
 
-	
+	rollDice(numOfDie, sidesOfDie, rerollDie);
 
-	rollDice(numOfDie, sidesOfDie);
+
 };
 
 
