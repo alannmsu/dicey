@@ -18,7 +18,7 @@ const singleStat = () => {
 	if (bonus == 1) {
 		var result = arraySum - bonusCount;
 	} else if (bonus == 2) {
-		var result = arraySum + bonusCount;
+		var result = arraySum + bonusCount; 
 	}
 
 	console.log(`Single stat: ${result}`);

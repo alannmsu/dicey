@@ -35,7 +35,7 @@ let singleArray = () => {
 			array.pop();
 		}
 	}
-	console.log(`Your stat array: ${array}`);
+	console.log(`Your array of rolls: ${array}`);
 	return array;
 }
 
