@@ -7,7 +7,7 @@ const rollDice = () => {
 	let numOfDie = valOf('num-of-die');
 	let rerollDie = valOf('reroll-die');
 	let stat = []; //Results array
-	let extraRoll = 1; //Counter for extra rolls during rerolling
+	let extraRoll = 0; //Counter for extra rolls during rerolling
 	let roll = 0; //Result variable
 
 	//Iterate single rolls "numOfDie" times
@@ -22,38 +22,38 @@ const rollDice = () => {
 
 		//If rerollling 1s...
 	} else if (rerollDie == 1) {
-			//If result is not a 1, push to array
+			//If result is not a 1, push
 			if (roll != 1) {
 				stat.push(roll);
 				i++;
-			//If result is 1, reroll until no longer 1, push to array
+			//If result is 1, reroll until no longer 1, push
 		} else if (roll == 1) {
 			while (roll == 1 ) {
+				extraRoll++;
 				roll = rollOne();
 				console.log(`This is extra roll number ${extraRoll}: ${roll}!`);
-				extraRoll++;
 			}
 			stat.push(roll);
 			i++;				
 		}
 	} else if (rerollDie == 2) {
-			//If result is not a 1, push to array
+			//If result is not a 1 or 2, push
 			if (roll != 1 && roll != 2) {
 				stat.push(roll);
 				i++;
-			//If result is 1, reroll until no longer 1, push to array
+			//If result is 1 or 2, reroll until no longer 1 or 2, push
 		} else if (roll == 1 || roll == 2) {
 			while (roll == 1 || roll == 2) {
+				extraRoll++;
 				roll = rollOne();
 				console.log(`This is extra roll number ${extraRoll}: ${roll}!`);
-				extraRoll++;
 			}
 			stat.push(roll);
 			i++;				
 		}
 	}
 };
-
+stat.push(extraRoll);
 return stat;
 }
 

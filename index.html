@@ -66,11 +66,11 @@
 		<h3>Advanced</h3>
 		<form>
 			<p>
-				<input type="number" id="num-of-rolls" name="num-of-rolls" required min="1" max="9" value="7">
+				<input type="number" id="num-of-rolls" name="num-of-rolls" required min="1" max="10" value="7">
 				<span>
 					* ( 
 				</span>
-				<input type="number" id="num-of-die" name="num-of-die" required min="1" max="99" value="4">
+				<input type="number" id="num-of-die" name="num-of-die" required min="1" max="100" value="4">
 				<span>
 					d 
 				</span>
@@ -86,23 +86,23 @@
 				drop: 
 				<select id="die-drop" name="die-drop">
 					<option value="0">none</option>
-					<option value="1">Lowest</option>
-					<option value="2">Highest</option>
+					<option value="1">lowest</option>
+					<option value="2">highest</option>
 				</select>
-				<input type="number" id="die-drop-count" name="die-drop-count" required min="0" max="2" value="1"></input>
+				<input type="number" id="die-drop-count" name="die-drop-count" required min="0" max="99" value="1"></input>
 				<select id="bonus" name="bonus">
-					<option value="0">-</option>
-					<option value="1">+</option>
+					<option value="1">-</option>
+					<option value="2">+</option>
 				</select>
 				<input type="number" id="bonus-count" name="bonus-count" required min="0" max="100" value="0">
 				) drop: 
 				<select id="roll-drop" name="roll-drop">
 					<option value="0">none</option>
-					<option value="1">Lowest</option>
-					<option value="2">Highest</option>
+					<option value="1">lowest</option>
+					<option value="2">highest</option>
 				</select>
-				<input type="number" id="roll-drop-count" name="roll-drop-count" required min="0" max="8" value="1"></input>
-				<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit">Roll</button>
+				<input type="number" id="roll-drop-count" name="roll-drop-count" required min="0" max="9" value="1"></input>
+				<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit">ROLL</button>
 			</p>
 		</form>
 	</div>

@@ -1,24 +1,28 @@
 import valOf from './valOf.js';
-import rollDice from './rollDice.js';
+import singleArray from './singleArray.js';
 
-let singleStat = () => {
-	//Initialize variables
-	//Query for drop none(0), low(1), or high(2)
-	let dieDrop = valOf('die-drop');
-	//Number of dice to drop
-	let dieDropCount = valOf('die-drop-count');
+const singleStat = () => {
 	//Get stat array
-	let fullArray = rollDice();
+	let statArray = singleArray();
+	//Sum array
+	let arraySum = statArray.reduce((a,b) => a+b);
+	console.log(`arraySum is: ${arraySum}`);
+	//Query for addition or subtraction of "bonusCount"
+	let bonus = Number(valOf('bonus'));
+	console.log(`bonus: ${bonus}`);
+	//Static bonus to add to result
+	let bonusCount = Number(valOf('bonus-count'));
+	console.log(`bonusCount: ${bonusCount}`);
 
-	if (dieDrop == 0) {
-
-	} else if (dieDrop ==1) {
-
-	} else if (dieDrop ==2) {
-
+	//If 1, subtract; if 2, add
+	if (bonus == 1) {
+		var result = arraySum - bonusCount;
+	} else if (bonus == 2) {
+		var result = arraySum + bonusCount;
 	}
 
-	console.log(fullArray);
+	console.log(`Single stat: ${result}`);
+	return result;
 
 }
 

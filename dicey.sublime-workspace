@@ -1,0 +1,588 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"urlAccessToken"
+			],
+			[
+				"name",
+				"playlistName"
+			],
+			[
+				"Track",
+				"Track-action"
+			],
+			[
+				"ha",
+				"handleLocationChange"
+			],
+			[
+				"render",
+				"renderSortByOptions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3242,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/basicRoll.js",
+			"settings":
+			{
+				"buffer_size": 722,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/advancedRoll.js",
+			"settings":
+			{
+				"buffer_size": 789,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/singleStat.js",
+			"settings":
+			{
+				"buffer_size": 464,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/singleArray.js",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/rollDice.js",
+			"settings":
+			{
+				"buffer_size": 1523,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/rollOne.js",
+			"settings":
+			{
+				"buffer_size": 228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/valOf.js",
+			"settings":
+			{
+				"buffer_size": 124,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/alann/Documents/Web Projects/dicey",
+		"/D/alann/Documents/Web Projects/dicey/js"
+	],
+	"file_history":
+	[
+		"/C/Users/alann/Desktop/dicey/js/rollDice.js",
+		"/C/Users/alann/Desktop/dicey/js/advanced_roll.js",
+		"/C/Users/alann/Desktop/dicey/js/script.js",
+		"/C/Users/alann/Desktop/dicey/css/style.css",
+		"/C/Users/alann/Desktop/dicey/index.html",
+		"/D/alann/Documents/Web Projects/dicey/src/App.test.js",
+		"/D/alann/Documents/Web Projects/dicey/src/App.css",
+		"/D/alann/Documents/Web Projects/dicey/src/index.css",
+		"/D/alann/Documents/Web Projects/dicey/src/index.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/App/App.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/util/Spotify.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/App/App.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/public/index.html",
+		"/D/alann/Documents/Web Projects/dicey/src/App.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/index.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/public/reset.css",
+		"/D/alann/Documents/Web Projects/Dice Roller/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/TrackList/TrackList.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/SearchResults/SearchResults.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/Track/Track.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/SearchBar/SearchBar.js",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/Playlist/Playlist.js",
+		"/D/alann/Documents/Web Projects/Dice Roller/diceroller/public/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/Track/Track.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/SearchBar/SearchBar.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/SearchResults/SearchResults.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/TrackList/TrackList.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/Components/Playlist/Playlist.css",
+		"/D/alann/Documents/Web Projects/Codecademy/jamming/src/logo.svg",
+		"/C/Riot Games/League of Legends/Config/PersistedSettings.json",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous-part-four-solution/src/components/App/App.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/SearchBar/Compare.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous-part-two-solution/src/components/BusinessList/BusinessList.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/App/App.js",
+		"/D/alann/Documents/Web Projects/Gypsy Soul Enterprises/Handyman/resources/css/normalize.css",
+		"/D/alann/Documents/Web Projects/Gypsy Soul Enterprises/Handyman/resources/css/style.css",
+		"/D/alann/Documents/Web Projects/Gypsy Soul Enterprises/Handyman/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/Business/Business.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/public/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/BusinessList/BusinessList.css",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/SearchBar/SearchBar.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/public/reset.css",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/BusinessList/BusinessList.js",
+		"/D/alann/Documents/Web Projects/Codecademy/ravenous/src/components/Business/Business.css",
+		"/D/alann/Documents/Web Projects/Codecademy/Colmar Capstone/resources/css/normalize.css",
+		"/D/alann/Documents/Web Projects/Codecademy/Colmar Capstone/resources/css/style.css",
+		"/D/alann/Documents/Web Projects/Codecademy/Colmar Capstone/README.md",
+		"/D/alann/Documents/Web Projects/Codecademy/Colmar Capstone/index.html",
+		"/D/alann/Documents/Web Projects/boilerplate/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/Excursion/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/Excursion/resources/css/style.css",
+		"/D/alann/Documents/Web Projects/Codecademy/Fotomatic/F1C1_start/index.html",
+		"/D/alann/Documents/Web Projects/Codecademy/Fotomatic/F1C1_start/resources/css/reset.css",
+		"/D/alann/Documents/Web Projects/Codecademy/Fotomatic/F1C1_start/resources/css/style.css",
+		"/C/Users/alann/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/alann/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings"
+	],
+	"find":
+	{
+		"height": 78.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"rollDice",
+			"return",
+			".value",
+			"<div class=\"roll-button\">",
+			"roll-4",
+			"resources"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2535,
+								2535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2262.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "js/basicRoll.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/advancedRoll.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/singleStat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/singleArray.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/rollDice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1454,
+								1454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/rollOne.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/valOf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 78.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.464993781773,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dicey.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
