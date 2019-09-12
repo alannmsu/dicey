@@ -7,7 +7,7 @@ let advancedRollSubmit = document.getElementById('advanced-roll-submit');
 
 //The onClick handler for advanced rolls
 let advancedRoll = () => {
-	var final = finalCut();
+	var final = finalCut().join(', ');
 	let advancedResults = document.getElementById('advanced-results');
 	advancedResults.innerHTML = final;
 };

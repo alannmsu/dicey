@@ -21,71 +21,70 @@
 	</div>
 
 
-	<div class="container">
+	<div class="container mt-5">
 		<div class="row align-items-center justify-content-around">
 
 			<div class="container col-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-info">d4</button>
 					<div class="result-box col text-center border border-info">
-						<i class="fas fa-dice-d20"></i>
+						<h3 class="fas fa-dice-d20"></h3>
 					</div>		
 				</div>
 			</div>
 
-			<div class="container col-1 offset-1">
+			<div class="container col-1 offset-md-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-primary">d6</button>
 					<div class="result-box col text-center border border-primary">
-						<i class="fas fa-dice-d20"></i>
+						<i class="fas fa-dice-d20 fa-2x"></i>
 					</div>		
 				</div>
 			</div>
 
-			<div class="container col-1 offset-1">
+			<div class="container col-1 offset-md-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-success">d8</button>
 					<div class="result-box col text-center border border-success">
-						<i class="fas fa-dice-d20"></i>
+						<i class="fas fa-dice-d20 fa-2x"></i>
 					</div>		
 				</div>
 			</div>
 
 			<div class="w-100 d-xs-block d-sm-block d-md-none"></div>
 
-			<div class="container col-1 offset-1">
+			<div class="container col-1 offset-md-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-danger">d10</button>
 					<div class="result-box col text-center border border-danger">
-						<i class="fas fa-dice-d20"></i>
+						<i class="fas fa-dice-d20 fa-2x"></i>
 					</div>		
 				</div>
 			</div>
 
-			<div class="container col-1 offset-1">
+			<div class="container col-1 offset-md-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-warning">d12</button>
 					<div class="result-box col text-center border border-warning">
-						<i class="fas fa-dice-d20"></i>
+						<i class="fas fa-dice-d20 fa-2x"></i>
 					</div>
 				</div>
 			</div>
 
-			<div class="container col-1 offset-1">
+			<div class="container col-1 offset-md-1">
 				<div class="row align-items-center">
 					<button class="roll-button col btn btn-lg btn-secondary">d20</button>
 					<div class="result-box col text-center border border-secondary">
-						<i class="fas fa-dice-d20"></i>
+						<i class="fas fa-dice-d20 fa-2x"></i>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="body-panel advanced-container">
-		<h3>Advanced</h3>
-		<form class="advanced-form form-inline">
-			<div>
+	<div class="container-fluid mt-5">
+		<h3 class="row justify-content-center">Advanced</h3>
+		<form class="advanced-form form-inline row justify-content-center">
 				<input required id="num-of-rolls" name="num-of-rolls"  type="number" min="1" max="10" value="7" class="form-control">
 				<span>* (</span>
 				<input required id="num-of-die" name="num-of-die" type="number" min="1" max="100" value="4" class="form-control">
@@ -117,9 +116,8 @@
 				</select>
 				<input required id="roll-drop-count" name="roll-drop-count" type="number" min="0" max="9" value="1" class="form-control"></input>
 				<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit" class="btn btn-secondary form-control">ROLL</button>
-			</div>
 		</form>
-		<p id="advanced-results" class="advanced-results">Your results!</p>
+		<h3 id="advanced-results" class="advanced-results row justify-content-center mt-3">Your results!</h3>
 	</div>
 </div>
 

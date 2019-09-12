@@ -7,12 +7,12 @@ function basicRoll(e) {
 	let result = Math.floor(Math.random() * Math.floor(max)+1);
 	console.log(`the result is: ${result}!`);
 	let resultBox = document.getElementsByClassName('result-box');
-	e.target.nextElementSibling.innerHTML = `<i class="basic-result">${result}</i>`;
+	e.target.nextElementSibling.innerHTML = `<h3>${result}</h3>`;
 	
 };
 
 function reset(e) {
-	e.target.nextElementSibling.innerHTML = '<i class="fas fa-dice-d20"></i>';
+	e.target.nextElementSibling.innerHTML = '<h3 class="fas fa-dice-d20"></h3>';
 };
 
 for (var i = 0 ; i < rollButtons.length; i++) {
