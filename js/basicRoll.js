@@ -12,7 +12,7 @@ function basicRoll(e) {
 };
 
 function reset(e) {
-	e.target.nextElementSibling.innerHTML = '<h3 class="fas fa-dice-d20"></h3>';
+	e.target.nextElementSibling.innerHTML = '<h3 class="fas fa-dice-d20 fa-2x"></h3>';
 };
 
 for (var i = 0 ; i < rollButtons.length; i++) {
