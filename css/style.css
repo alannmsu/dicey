@@ -1,3 +1,4 @@
+
 /*UNIVERSAL STYLILNG*/
 
 * {
@@ -61,13 +62,6 @@ button {
 	flex-grow: 1;
 }
 
-/*.basic-roll div {
-	min-height: 50px;
-	min-width: 50px;
-	max-width: 100px;
-	flex-grow: 1;
-
-}*/
 .basic-roll > * {
 	border: 1px solid black;
 	text-align: center;
@@ -77,20 +71,6 @@ button {
 	max-width: 100px;
 	flex-grow: 1;
 }
-
-/*.roll-button button {
-	padding: 0;
-	height: 100%;
-	width: 100%;
-
-}
-
-.result-box {
-	border: 1px solid black;
-	text-align: center;
-	display: inline-block;
-
-}*/
 
 .result-box .fas {
 	margin: 0;
@@ -118,9 +98,8 @@ button {
 }
 
 .advanced-form {
-	display: inline-block;
+
 }
 .advanced-results {
-	display: inline-block;
-	margin-left: 20%;
+
 }
