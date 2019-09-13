@@ -75,7 +75,7 @@
 
 		<form id="advanced-roll" class="was-validated advanced-form form-inline row justify-content-center">
 
-			<input required id="num-of-rolls" name="num-of-rolls"  type="number" min="1" max="10" value="7" class="form-control col-3 col-sm-auto">
+			<input required id="num-of-rolls" name="num-of-rolls"  type="number" min="1" max="10" value="6" class="form-control col-3 col-sm-auto">
 			<span>* (</span>
 			<input required id="num-of-die" name="num-of-die" type="number" min="1" max="100" value="4" class="form-control col-3 col-sm-auto">
 			<span>d</span>
@@ -103,11 +103,11 @@
 			<!-- <div class="w-100 mt-3 d-sm-block d-md-none"></div> -->
 			<span>drop:</span>
 			<select required id="roll-drop" name="roll-drop" class="form-control col-3 col-sm-auto">
-				<option value="0">none</option>
-				<option value="1" selected>lowest</option>
+				<option value="0" selected>none</option>
+				<option value="1">lowest</option>
 				<option value="2">highest</option>
 			</select>
-			<input required id="roll-drop-count" name="roll-drop-count" type="number" min="0" max="9" value="1" class="form-control col-3 col-sm-auto"></input>
+			<input required id="roll-drop-count" name="roll-drop-count" type="number" min="0" max="9" value="0" class="form-control col-3 col-sm-auto"></input>
 			<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit" class="btn btn-secondary form-control col-3 col-sm-auto">ROLL</button>
 		</form>
 		<h3 id="advanced-results" class="advanced-results row justify-content-center mt-3">Your results!</h3>
