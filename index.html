@@ -22,100 +22,89 @@
 
 
 	<div class="container mt-5">
-		<div class="row align-items-center justify-content-around">
+		<div class="row align-items-center justify-content-around text-center">
 
-			<div class="container col-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-info">d4</button>
-					<div class="result-box col text-center border border-info">
-						<h3 class="fas fa-dice-d20 fa-2x"></h3>
-					</div>		
-				</div>
+			<div class="col">
+				<button type="button" class="roll-button btn btn-primary w-100 ">d4</button>
+				<div class="result-box border border-primary ">
+					<h3 class="col fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
 
-			<div class="container col-1 offset-md-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-primary">d6</button>
-					<div class="result-box col text-center border border-primary">
-						<i class="fas fa-dice-d20 fa-2x"></i>
-					</div>		
-				</div>
+			<div class="container col">
+				<button type="button" class="roll-button btn btn-danger w-100">d6</button>
+				<div class="result-box border border-danger ">
+					<h3 class="fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
 
-			<div class="container col-1 offset-md-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-success">d8</button>
-					<div class="result-box col text-center border border-success">
-						<i class="fas fa-dice-d20 fa-2x"></i>
-					</div>		
-				</div>
+			<div class="container col">
+				<button class="roll-button btn btn-warning w-100">d8</button>
+				<div class="result-box border border-warning ">
+					<h3 class="fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
 
-			<div class="w-100 d-xs-block d-sm-block d-md-none"></div>
+			<div class="w-100 mt-3 d-xs-block d-sm-block d-md-none"></div>
 
-			<div class="container col-1 offset-md-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-danger">d10</button>
-					<div class="result-box col text-center border border-danger">
-						<i class="fas fa-dice-d20 fa-2x"></i>
-					</div>		
-				</div>
+			<div class="container col">
+				<button class="roll-button btn btn-success w-100">d10</button>
+				<div class="result-box border border-success">
+					<h3 class="fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
 
-			<div class="container col-1 offset-md-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-warning">d12</button>
-					<div class="result-box col text-center border border-warning">
-						<i class="fas fa-dice-d20 fa-2x"></i>
-					</div>
-				</div>
+			<div class="container col">
+				<button class="roll-button btn btn-info w-100">d12</button>
+				<div class="result-box border border-info">
+					<h3 class="fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
 
-			<div class="container col-1 offset-md-1">
-				<div class="row align-items-center">
-					<button class="roll-button col btn btn-lg btn-secondary">d20</button>
-					<div class="result-box col text-center border border-secondary">
-						<i class="fas fa-dice-d20 fa-2x"></i>
-					</div>
-				</div>
+			<div class="container col">
+				<button class="roll-button btn btn-dark w-100">d20</button>
+				<div class="result-box border border-dark">
+					<h3 class="fas fa-dice-d20 fa-2x"></h3>
+				</div>		
 			</div>
+
 		</div>
 	</div>
 
 	<div class="container-fluid mt-5">
 		<h3 class="row justify-content-center">Advanced</h3>
 		<form class="advanced-form form-inline row justify-content-center">
-				<input required id="num-of-rolls" name="num-of-rolls"  type="number" min="1" max="10" value="7" class="form-control">
-				<span>* (</span>
-				<input required id="num-of-die" name="num-of-die" type="number" min="1" max="100" value="4" class="form-control">
-				<span>d</span>
-				<input required id="sides-of-die" name="sides-of-die" type="number" min="1" max="100" value="6" class="form-control">
-				<span>reroll:</span>
-				<select required id="reroll-die" name="reroll-die" class="form-control">
-					<option value="0" selected>none</option>
-					<option value="1">1s</option>
-					<option value="2">1s & 2s</option>
-				</select>
-				<span>drop:</span> 
-				<select required id="die-drop" name="die-drop" class="form-control">
-					<option value="0">none</option>
-					<option value="1" selected>lowest</option>
-					<option value="2">highest</option>
-				</select>
-				<input required id="die-drop-count" name="die-drop-count" type="number" min="0" max="99" value="1" class="form-control"></input>
-				<select required id="bonus" name="bonus" class="form-control">
-					<option value="1">-</option>
-					<option value="2" selected>+</option>
-				</select>
-				<input required id="bonus-count" name="bonus-count" type="number" min="0" max="100" value="0" class="form-control">
-				<span>) drop:</span>
-				<select required id="roll-drop" name="roll-drop" class="form-control">
-					<option value="0">none</option>
-					<option value="1" selected>lowest</option>
-					<option value="2">highest</option>
-				</select>
-				<input required id="roll-drop-count" name="roll-drop-count" type="number" min="0" max="9" value="1" class="form-control"></input>
-				<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit" class="btn btn-secondary form-control">ROLL</button>
+			<input required id="num-of-rolls" name="num-of-rolls"  type="number" min="1" max="10" value="7" class="form-control">
+			<span>* (</span>
+			<input required id="num-of-die" name="num-of-die" type="number" min="1" max="100" value="4" class="form-control">
+			<span>d</span>
+			<input required id="sides-of-die" name="sides-of-die" type="number" min="1" max="100" value="6" class="form-control">
+			<span>reroll:</span>
+			<select required id="reroll-die" name="reroll-die" class="form-control">
+				<option value="0" selected>none</option>
+				<option value="1">1s</option>
+				<option value="2">1s & 2s</option>
+			</select>
+			<span>drop:</span> 
+			<select required id="die-drop" name="die-drop" class="form-control">
+				<option value="0">none</option>
+				<option value="1" selected>lowest</option>
+				<option value="2">highest</option>
+			</select>
+			<input required id="die-drop-count" name="die-drop-count" type="number" min="0" max="99" value="1" class="form-control"></input>
+			<select required id="bonus" name="bonus" class="form-control">
+				<option value="1">-</option>
+				<option value="2" selected>+</option>
+			</select>
+			<input required id="bonus-count" name="bonus-count" type="number" min="0" max="100" value="0" class="form-control">
+			<span>) drop:</span>
+			<select required id="roll-drop" name="roll-drop" class="form-control">
+				<option value="0">none</option>
+				<option value="1" selected>lowest</option>
+				<option value="2">highest</option>
+			</select>
+			<input required id="roll-drop-count" name="roll-drop-count" type="number" min="0" max="9" value="1" class="form-control"></input>
+			<button type="button" id="advanced-roll-submit" name="advanced-roll-submit" value="advanced-roll-submit" class="btn btn-secondary form-control">ROLL</button>
 		</form>
 		<h3 id="advanced-results" class="advanced-results row justify-content-center mt-3">Your results!</h3>
 	</div>
