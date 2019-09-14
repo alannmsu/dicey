@@ -31,24 +31,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4983,
+				"buffer_size": 4842,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 192348,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "js/basicRoll.js",
 			"settings":
 			{
-				"buffer_size": 711,
+				"buffer_size": 715,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -57,7 +49,16 @@
 			"file": "js/advancedRoll.js",
 			"settings":
 			{
-				"buffer_size": 450,
+				"buffer_size": 886,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/rollDice.js",
+			"settings":
+			{
+				"buffer_size": 1523,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -121,8 +122,11 @@
 	],
 	"file_history":
 	[
-		"/D/alann/Documents/Web Projects/dicey/js/finalCut.js",
+		"/D/alann/Documents/Web Projects/dicey/index.html",
+		"/D/alann/Documents/Web Projects/dicey/js/advancedRoll.js",
+		"/D/alann/Documents/Web Projects/dicey/css/bootstrap.css",
 		"/D/alann/Documents/Web Projects/dicey/js/basicRoll.js",
+		"/D/alann/Documents/Web Projects/dicey/js/finalCut.js",
 		"/D/alann/Documents/Web Projects/dicey/js/bootstrap.bundle.js",
 		"/D/alann/Documents/Web Projects/dicey/css/style.css",
 		"/D/alann/Documents/Web Projects/dicey/js/rollOne.js",
@@ -131,7 +135,6 @@
 		"/D/alann/Documents/Web Projects/dicey/js/singleArray.js",
 		"/D/alann/Documents/Web Projects/dicey/js/singleStat.js",
 		"/D/alann/Documents/Web Projects/dicey/js/statArray.js",
-		"/D/alann/Documents/Web Projects/dicey/js/advancedRoll.js",
 		"/C/Users/alann/Desktop/dicey/js/rollDice.js",
 		"/C/Users/alann/Desktop/dicey/js/advanced_roll.js",
 		"/C/Users/alann/Desktop/dicey/js/script.js",
@@ -195,7 +198,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 167.0,
 		"where_history":
 		[
 		]
@@ -205,6 +208,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"form-control col",
+			"border",
+			"btn",
+			"form-control col",
 			"sm-1",
 			"col",
 			"div class=\"col",
@@ -250,15 +257,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4983,
+						"buffer_size": 4842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1011,
-								972
+								2999,
+								2999
 							]
 						],
 						"settings":
@@ -267,63 +274,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 475.0,
+						"translation.y": 2055.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "css/bootstrap.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 192348,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18198,
-								18198
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 31660.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "js/basicRoll.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 711,
+						"buffer_size": 715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								711,
-								711
+								66,
+								66
 							]
 						],
 						"settings":
@@ -335,29 +306,58 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "js/advancedRoll.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								642,
+								642
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/rollDice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -386,18 +386,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.509769094139,
 			1.0
 		],
 		"rows":
@@ -445,7 +438,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
